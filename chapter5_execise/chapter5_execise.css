@@ -1,0 +1,130 @@
+/*ブラウザがそれぞれ持っているCSSをリセットするための記述*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  width: 90%; /* 横幅90% */
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .heading{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nav-list{
+  text-align: center;
+  padding: 15px 20px;
+  margin: 0 auto;
+  border-top: solid black;
+  border-bottom: solid black;
+
+}
+
+.nav-list-item{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main{
+  width: 800px; /* 横幅840px */
+  height: 600px;
+  display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
+  margin:50px auto; /* 中央寄せ (左右に余白がないとできない) */
+  flex-wrap: wrap;
+}
+
+.g1{
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.g2{
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.g3{
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.g4{
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.y1{
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.y2{
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.y3{
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.y4{
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.b1{
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.b2{
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.b3{
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.b4{
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer{
+  width: 100%; /* 横幅いっぱい */
+  height: 150px; /* 高さ120px */
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text{
+  color: #fff;
+}
